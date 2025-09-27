@@ -172,5 +172,13 @@ Below is the schema design for core entities.
   "createdAt": "2025-09-25T12:00:00.000Z",
   "updatedAt": "2025-09-25T12:00:00.000Z"
 }
+```
+🔐 Auth (JWT Tokens)
+
+Not stored in DB by default (stateless auth).
+
+Tokens are signed with JWT_SECRET.
+
+Optionally, a refreshTokens collection can be added if persistent sessions are needed.
 
 
