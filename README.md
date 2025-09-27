@@ -36,10 +36,10 @@ This is a **full-stack recruitment platform prototype** with authentication, use
 
 ### Backend (`/backend/.env`)
 ```env
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
-JWT_SECRET=superlongrandomsecretkey
-PORT=5000
-NODE_ENV=development
+MONGO_URI=mongodb+srv://nkemani46_db_user:X0vugdTqRXWOyf8k@cluster0.c1vbg7y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=bed0e363e475b948dd7fcd949de1a4701f8ffda20a9f9f600e771e29ff5ceb3547992df3d2bac9fba9d4fe687f092a80516221a06cfd4324ffee668cb9c4d180
+PORT= 5000
+
 
 ###Run Locally
 1. Clone the repo
